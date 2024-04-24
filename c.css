@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+table {
+    justify-content: center;
+    display: flex;
+}
+td {
+    width: 100px;
+    height: 100px;
+    background-color: #72431da3;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+    cursor: grab;
+}
+.game-container {
+    justify-content: center;
+    align-items: center;
+}
+.player-info {
+    text-align: center;
+    background-color: #e5b2665d;
+    padding: 10px;
+    margin: 20px;
+}
+.game-board {
+    opacity: 80%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    cursor: pointer;
+}
+.button-center {
+    text-align: center;
+}
+body {
+    background-image: url("https://png.pngtree.com/back_origin_pic/04/16/74/91a07121d24070d9abca471d2fdde9a8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clicked {
+    background-color: rgb(255, 102, 0);
+}
